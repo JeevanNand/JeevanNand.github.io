@@ -1,0 +1,343 @@
+.margin-zero {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.slide1-caption {
+    position: absolute;
+    top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.logo-space {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 14px;
+    min-width: 60px;
+    max-width: 100px;
+    height: auto;
+}
+
+.caption-titles {
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+.caption-titles h3 {
+    font-size: 3vw;
+}
+
+.btn-book {
+    background-color: aquamarine;
+    color: black;
+}
+
+.section-header h3 {
+    font-size: 3vw;
+    text-align:start;
+}
+.section-header h2 {
+    font-size: 3vw;
+    text-align:center;
+}
+
+
+.main-section-heading {
+    text-transform: uppercase;
+}
+
+.kent-user {
+    max-width: 120px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.margin-div {
+    margin: 5% 0%;
+}
+
+.img-section {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section-icon {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.form-book-demo {
+    width: 100%;
+    height: 450px;
+    background: url("image/home-visit.png");
+    background-size: cover;
+    background-position: center right;
+}
+
+.review-box {
+    max-width: 29vw;
+    background: blue;
+    min-height: 200px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.div-shadow {
+    box-shadow: 10px 10px grey;
+}
+
+.right-review-box {
+    margin-right: 0px;
+    opacity: .4;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.left-review-box {
+    margin-left: 0px;
+    opacity: .4;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-left: 0px;
+}
+
+.border-side {
+    border-right: 1px solid rgb(218, 218, 218);
+    border-left: 1px solid rgb(218, 218, 218);
+}
+
+footer {
+    background: black;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+}
+
+.footer-nav-link a {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+footer a::after {
+    content: " / ";
+}
+
+footer a:last-child::after {
+    content: "";
+}
+
+.footer-nav-link a:hover {
+    text-decoration: none;
+}
+
+.kent-products {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo-space {
+        margin: 0px 40%;
+        padding: auto;
+        top: 0px;
+        margin-top: 0px;
+        width: 20px;
+        height: auto;
+        max-width: 30px;
+    }
+    .caption-titles {
+        margin-top: 10%;
+        margin-left: 70%;
+    }
+    .caption-titles h3 {
+        padding-bottom: 0px;
+        text-align: justify;
+    }
+    .btn-book {
+        font-weight: 100;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .main-section-heading {
+        font-size: 5vw;
+    }
+    .kent-user {
+        width: 100px;
+        max-width: 100%;
+        height: 80px;
+    }
+    .margin-div {
+        margin: 5% 0%;
+    }
+    .img-section {
+        max-width: 30vw;
+        height: auto;
+        border-radius: 50%;
+    }
+    .lose-details h3 {
+        text-align: left;
+        font-size: 6vw;
+    }
+    .lose-details p {
+        text-align: justify;
+        font-size: 3vw;
+    }
+    .advantages h4 {
+        font-size: 5vw;
+    }
+    .section-icon {
+        font-size: 2em;
+        padding: 10px;
+    }
+    .form-book-demo {
+        width: 100%;
+        height: 450px;
+        background: url("image/home-visit.png");
+        background-size: cover;
+        background-position: center right;
+    }
+    .review-box {
+        max-width: 100%;
+        min-height: 180px;
+        background: blue;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+    .hide-other {
+        display: none;
+    }
+    .right-review-box {
+        margin-right: 0px;
+        opacity: .7;
+        border-radius: 5px;
+    }
+    .left-review-box {
+        margin-left: 0px;
+        opacity: .4;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left: 0px;
+    }
+    .footer-nav-link a {
+        line-height: normal;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .caption-titles {
+        margin-top: 10%;
+        margin-left: 60%;
+    }
+    .caption-titles h3 {
+        font-size: 3vw;
+    }
+    .btn-book {
+        background-color: aquamarine;
+        color: black;
+    }
+    .section-header h3 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .main-section-heading {
+        text-transform: uppercase;
+    }
+    .kent-user {
+        max-width: 120px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .lose-details h3 {
+        text-align: left;
+        font-size: 5vw;
+    }
+    .lose-details p {
+        text-align: justify;
+        font-size: 3vw;
+    }
+    .advantages h4 {
+        font-size: 5vw;
+    }
+    .img-section {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .section-icon {
+        font-size: 2em;
+        padding: 10px;
+    }
+    .form-book-demo {
+        width: 100%;
+        height: 450px;
+        background: url("image/home-visit.png");
+        background-size: cover;
+        background-position: center right;
+    }
+    .review-box {
+        max-width: 100%;
+        min-height: 180px;
+        background: blue;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+    .div-shadow {
+        box-shadow: 10px 10px grey;
+    }
+    .hide-other {
+        display: none;
+    }
+    .right-review-box {
+        margin-right: 0px;
+        opacity: .7;
+        border-radius: 5px;
+    }
+    .left-review-box {
+        margin-left: 0px;
+        opacity: .4;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-left: 0px;
+    }
+    .border-side {
+        border-right: 1px solid rgb(218, 218, 218);
+        border-left: 1px solid rgb(218, 218, 218);
+    }
+    footer {
+        background: black;
+        color: white;
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+    }
+    .footer-nav-link a {
+        text-decoration: none;
+        color: white;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+    footer a::after {
+        content: " / ";
+    }
+    footer a:last-child::after {
+        content: "";
+    }
+    .footer-nav-link a:hover {
+        text-decoration: none;
+    }
+    .kent-products {
+        width: 200px;
+        height: 200px;
+    }
+}
