@@ -326,8 +326,9 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/about_us_c.png);
   padding: 60px 0;
+  background-blend-mode: lighten;
 }
 
 #about-us h2 {
@@ -754,7 +755,7 @@ section {
   position: absolute;
   top:10px;
   right:10px;
-  height: 30px;
+ height: 30px;
   width: 30px;
   line-height: 30px;
   border-radius:4px;
